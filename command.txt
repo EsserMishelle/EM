@@ -1,0 +1,517 @@
+
+fille@DESKTOP-4JS80HJ MINGW64 ~
+$ cd Desktop
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop
+$ ls
+'1z0-071 Exam – Free Actual Q&As, Page 14 ExamTopics.URL'
+ 20170528_122825.jpg
+ 2023-10-NCR-WISE/
+ 22032.jpg
+ 2_JOHN.DP
+'CS admin'/
+'Dec 2022'/
+ Discord.lnk*
+ Garmin/
+'M - Chrome.lnk'*
+ PerScholas.lnk*
+ Postman.lnk*
+ ReactPorcello/
+'Roblox Player.lnk'*
+'Roblox Studio.lnk'*
+'SQL Shell (psql).lnk'*
+ Slack.lnk*
+'Swim pool'/
+'Visual Studio Code (2).lnk'*
+'Visual Studio Code.lnk'*
+ Zoom.lnk*
+ break.jpg
+ desktop.ini
+ manipulate-the-dom/
+ misc/
+'music teacher suggestions.jpg'
+ ps-group/
+ southwest/
+'visual basic code.png'
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop
+$ cd manipulate-the-dom/
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/manipulate-the-dom (main)
+$ ls
+Antique-Olive-Std-Nord-Italic.ttf  game_pirates/     script.js
+Weather-App-New/                   index.html        stock/
+arrays_w_callbacks                 miniProject/      student_hw/
+blog/                              react-star-wars/  style.css
+commands.txt                       readme.md         weather_app/
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/manipulate-the-dom (main)
+$ cd weather-App-new
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/manipulate-the-dom/weather-App-new (main)
+$ git branch status
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/manipulate-the-dom/weather-App-new (main)
+$ ls
+README.md  node_modules/  package-lock.json  package.json  public/  src/
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/manipulate-the-dom/weather-App-new (main)
+$ git checkout
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/manipulate-the-dom/weather-App-new (main)
+$ git checkout -b EsserMishelle
+Switched to a new branch 'EsserMishelle'
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/manipulate-the-dom/weather-App-new (EsserMishelle)
+$ git add -A
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/manipulate-the-dom/weather-App-new (EsserMishelle)
+$ git commit -m "Final Commit"
+On branch EsserMishelle
+nothing to commit, working tree clean
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/manipulate-the-dom/weather-App-new (EsserMishelle)
+$ git push origin EsserMishelle
+To https://github.com/BowenAnna/Weather-App.git
+ ! [rejected]        EsserMishelle -> EsserMishelle (fetch first)
+error: failed to push some refs to 'https://github.com/BowenAnna/Weather-App.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/manipulate-the-dom/weather-App-new (EsserMishelle)
+$ git pull origin EsserMishelle
+fatal: couldn't find remote ref EsserMishelle
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/manipulate-the-dom/weather-App-new (main)
+$ git branch -r
+  origin/main
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/manipulate-the-dom/weather-App-new (main)
+$ git switch EsserMishelle
+fatal: invalid reference: EsserMishelle
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/manipulate-the-dom/weather-App-new (main)
+$ git checkout -b EsserMishelle
+Switched to a new branch 'EsserMishelle'
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/manipulate-the-dom/weather-App-new (EsserMishelle)
+$ git branch -r
+  origin/main
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/manipulate-the-dom/weather-App-new (EsserMishelle)
+$ git branch -r -v
+  origin/main b96a5e0 Wk10Day4 StarWar w Bonus will continue to add more bonuses
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/manipulate-the-dom/weather-App-new (EsserMishelle)
+$ cd ..
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/manipulate-the-dom (EsserMishelle)
+$ cd ..
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop
+$ cd ps-group
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/ps-group
+$ ls
+Weather-App-New/  weather_app/  weather_app.zip
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/ps-group
+$ ls -A
+Weather-App-New/  weather_app/  weather_app.zip
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/ps-group
+$ cd weather_app
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/ps-group/weather_app (EsserMishelle)
+$ git add -A
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/robots.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.test.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/reportWebVitals.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/setupTests.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App_Anna.css', LF will be replaced by CRLF the next time Git touches it
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/ps-group/weather_app (EsserMishelle)
+$ git commit -m "Final Commit"
+[EsserMishelle 77d20a7] Final Commit
+ 29 files changed, 1898 insertions(+), 54 deletions(-)
+ create mode 100644 public/logo.png
+ create mode 100644 public/logo2.png
+ create mode 100644 public/logo3.png
+ create mode 100644 src/App_Anna.css
+ create mode 100644 src/App_Bri.css
+ create mode 100644 src/App_Mishelle.css
+ create mode 100644 src/componets/About.js
+ create mode 100644 src/componets/CountryCodeList.js
+ create mode 100644 src/componets/Daily.js
+ create mode 100644 src/componets/Footer.js
+ create mode 100644 src/componets/History.js
+ create mode 100644 src/componets/Home.js
+ create mode 100644 src/componets/Hourly.js
+ create mode 100644 src/componets/Input.js
+ create mode 100644 src/componets/Nav.js
+ create mode 100644 src/componets/TenDaysCard.js
+ create mode 100644 src/componets/WeatherInfoComponent.js
+ create mode 100644 src/functions/BigWeatherIcon.js
+ create mode 100644 src/functions/TimeFormat.js
+ create mode 100644 src/functions/WeatherIcon.js
+ create mode 100644 src/icons/github.svg
+ create mode 100644 src/icons/linkedin.svg
+ create mode 100644 src/images/background1.jpg
+ create mode 100644 src/images/background2.jpg
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/ps-group/weather_app (EsserMishelle)
+$ git push origin EsserMishelle
+Enumerating objects: 46, done.
+Counting objects: 100% (46/46), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (37/37), done.
+Writing objects: 100% (37/37), 148.96 KiB | 6.77 MiB/s, done.
+Total 37 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), completed with 5 local objects.
+To https://github.com/BowenAnna/Weather-App
+   5a929d7..77d20a7  EsserMishelle -> EsserMishelle
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/ps-group/weather_app (EsserMishelle)
+$ ^C
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/ps-group/weather_app (EsserMishelle)
+$ cd d:
+
+fille@DESKTOP-4JS80HJ MINGW64 /d
+$ cd react/ps
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps
+$ create-react-app airbnb
+
+Creating a new React app in D:\react\ps\airbnb.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1484 packages in 1m
+
+250 packages are looking for funding
+  run `npm fund` for details
+
+Initialized a git repository.
+
+Installing template dependencies using npm...
+
+added 69 packages, and changed 1 package in 7s
+
+254 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1553 packages in 3s
+
+254 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (2 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Created git commit.
+
+Success! Created airbnb at D:\react\ps\airbnb
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd airbnb
+  npm start
+
+Happy hacking!
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps
+$ cd airbnb
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/airbnb (master)
+$ code .
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/airbnb (master)
+$ cd ..
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps
+$ cd myGit
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/myGit
+$ git add -A
+fatal: not a git repository (or any of the parent directories): .git
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/myGit
+$ git init
+Initialized empty Git repository in D:/React/PS/myGit/.git/
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/myGit (master)
+$ git add -A
+warning: adding embedded git repository: airbnb
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> airbnb
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached airbnb
+hint:
+hint: See "git help submodule" for more information.
+warning: adding embedded git repository: reactmovies
+warning: adding embedded git repository: stock_hw
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/myGit (master)
+$ git commit -m "first try"
+[master (root-commit) 79c9e14] first try
+ 3 files changed, 3 insertions(+)
+ create mode 160000 airbnb
+ create mode 160000 reactmovies
+ create mode 160000 stock_hw
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/myGit (master)
+$ git branch add origin https://github.com/EsserMishelle/EM.git
+usage: git branch [<options>] [-r | -a] [--merged] [--no-merged]
+   or: git branch [<options>] [-f] [--recurse-submodules] <branch-name> [<start-point>]
+   or: git branch [<options>] [-l] [<pattern>...]
+   or: git branch [<options>] [-r] (-d | -D) <branch-name>...
+   or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>
+   or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>
+   or: git branch [<options>] [-r | -a] [--points-at]
+   or: git branch [<options>] [-r | -a] [--format]
+
+Generic options
+    -v, --verbose         show hash and subject, give twice for upstream branch
+    -q, --quiet           suppress informational messages
+    -t, --track[=(direct|inherit)]
+                          set branch tracking configuration
+    -u, --set-upstream-to <upstream>
+                          change the upstream info
+    --unset-upstream      unset the upstream info
+    --color[=<when>]      use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --no-contains <commit>
+                          print only branches that don't contain the commit
+    --abbrev[=<n>]        use <n> digits to display object names
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --delete          delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --move            move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    --omit-empty          do not output a newline after empty formatted refs
+    -c, --copy            copy a branch and its reflog
+    -C                    copy a branch, even if target exists
+    -l, --list            list branch names
+    --show-current        show current branch name
+    --create-reflog       create the branch's reflog
+    --edit-description    edit the description for the branch
+    -f, --force           force creation, move/rename, deletion
+    --merged <commit>     print only branches that are merged
+    --no-merged <commit>  print only branches that are not merged
+    --column[=<style>]    list branches in columns
+    --sort <key>          field name to sort on
+    --points-at <object>  print only branches of the object
+    -i, --ignore-case     sorting and filtering are case insensitive
+    --recurse-submodules  recurse through submodules
+    --format <format>     format to use for the output
+
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/myGit (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/myGit (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/myGit (master)
+$ git push -u origin EM
+error: src refspec EM does not match any
+error: failed to push some refs to 'origin'
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/myGit (master)
+$ git push origin EM
+error: src refspec EM does not match any
+error: failed to push some refs to 'origin'
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/myGit (master)
+$ git push origin EM
+error: src refspec EM does not match any
+error: failed to push some refs to 'origin'
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/myGit (master)
+$ git push -u origin EM
+error: src refspec EM does not match any
+error: failed to push some refs to 'origin'
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/myGit (master)
+$ git commit -m "first try"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   airbnb (modified content, untracked content)
+        modified:   reactmovies (modified content, untracked content)
+        modified:   stock_hw (modified content, untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/myGit (master)
+$ git branch - M main
+usage: git branch [<options>] [-r | -a] [--merged] [--no-merged]
+   or: git branch [<options>] [-f] [--recurse-submodules] <branch-name> [<start-point>]
+   or: git branch [<options>] [-l] [<pattern>...]
+   or: git branch [<options>] [-r] (-d | -D) <branch-name>...
+   or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>
+   or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>
+   or: git branch [<options>] [-r | -a] [--points-at]
+   or: git branch [<options>] [-r | -a] [--format]
+
+Generic options
+    -v, --verbose         show hash and subject, give twice for upstream branch
+    -q, --quiet           suppress informational messages
+    -t, --track[=(direct|inherit)]
+                          set branch tracking configuration
+    -u, --set-upstream-to <upstream>
+                          change the upstream info
+    --unset-upstream      unset the upstream info
+    --color[=<when>]      use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --no-contains <commit>
+                          print only branches that don't contain the commit
+    --abbrev[=<n>]        use <n> digits to display object names
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --delete          delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --move            move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    --omit-empty          do not output a newline after empty formatted refs
+    -c, --copy            copy a branch and its reflog
+    -C                    copy a branch, even if target exists
+    -l, --list            list branch names
+    --show-current        show current branch name
+    --create-reflog       create the branch's reflog
+    --edit-description    edit the description for the branch
+    -f, --force           force creation, move/rename, deletion
+    --merged <commit>     print only branches that are merged
+    --no-merged <commit>  print only branches that are not merged
+    --column[=<style>]    list branches in columns
+    --sort <key>          field name to sort on
+    --points-at <object>  print only branches of the object
+    -i, --ignore-case     sorting and filtering are case insensitive
+    --recurse-submodules  recurse through submodules
+    --format <format>     format to use for the output
+
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/myGit (master)
+$ git remote add https://github.com/EsserMishelle/EM.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch> master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/myGit (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/myGit (master)
+$ git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/myGit (master)
+$ git add -A
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/myGit (master)
+$ ls -A
+.git/  airbnb/  reactmovies/  stock_hw/
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/myGit (master)
+$ git commit -m "fist try"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   airbnb (modified content, untracked content)
+        modified:   reactmovies (modified content, untracked content)
+        modified:   stock_hw (modified content, untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/myGit (master)
+$ git push origin EM
+error: src refspec EM does not match any
+error: failed to push some refs to 'origin'
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/myGit (master)
+$ git branch -M main
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/myGit (main)
+$ git remote add origin https://github.com/EsserMishelle/EM.git
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/myGit (main)
+$ git push -u origin main
+Enumerating objects: 2, done.
+Counting objects: 100% (2/2), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 268 bytes | 89.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/EsserMishelle/EM.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/myGit (main)
+$
